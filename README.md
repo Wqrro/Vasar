@@ -46,7 +46,4 @@ Enjoy. ❤️️
 - [x] Bots (very unstable, should be left alone)
 - [x] Discord integration (very unstable, should be left alone)
 
-# Questions or Concerns
-Contact me on discord @ Warro#0001.
-
-##### Developed by Ghezin/Warro
+##### Developed by Ghezin aka Wqrro.
