@@ -671,6 +671,7 @@ class CPlayer extends Player{
 		$this->plugin->getDatabaseHandler()->essentialStatsAdd(Utils::getPlayerName($this));
 		$this->plugin->getDatabaseHandler()->tempStatisticsAdd(Utils::getPlayerName($this));
 		$this->plugin->getDatabaseHandler()->matchStatsAdd(Utils::getPlayerName($this));
+		$this->plugin->getDatabaseHandler()->warnPointsAdd(Utils::getPlayerName($this));
 		Utils::initPlayer($this);
 		
 		$this->rank=$this->plugin->getDatabaseHandler()->getRank(Utils::getPlayerName($this));
