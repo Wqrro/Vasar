@@ -36,7 +36,7 @@ Enjoy. ❤️️
   - Permanent ban
   - Temporary ban
   - Mute
-  - All bans are carried out through both an IP and cient-id blacklisting
+  - All bans are carried out through both an IP and client-id blacklisting
   - Notifications on rank changes, ban/mute/rank expirations, gamemode changes, anti-cheat alerts
   - Staff chat (use `!` before your message)
 - [x] Anti-Cheat (very limited)
