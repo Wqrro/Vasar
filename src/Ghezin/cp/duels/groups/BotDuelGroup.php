@@ -318,6 +318,8 @@ class BotDuelGroup{
 			if($this->isBotOnline()){
 				if($this->isBotOnline()) $this->getBot()->setDeactivated(false);
 				if($this->isBotOnline()) Kits::sendMatchKit($this->getBot(), "NoDebuff");
+				if($this->isBotOnline()) $this->getBot()->getInventory()->setItemInHand(Item::get(Item::DIAMOND_SWORD, 0, 1));
+				if($this->isBotOnline()) $this->getBot()->getInventory()->sendHeldItem($this->getBot()->getViewers());
 			}
 			break;
 			default:
