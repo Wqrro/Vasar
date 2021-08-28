@@ -79,7 +79,7 @@ duel-arenas:
           z: 1
           
         # Configure what gamemode this duel map is for.
-        # Gamemodes: nodebuff, gapple, fist, sumo, combo
+        # Gamemodes: nodebuff, gapple, fist, sumo, combo, builduhc, diamond, soup
         modes:
           - nodebuff
 ...
